@@ -1,0 +1,634 @@
+id: program-security
+name: Program Security
+description: |
+  TODO: say something cool about program security.
+
+modules:
+
+- id: shellcode-injection
+  name: Shellcode Injection
+  description: TODO
+  challenges:
+  - id: level-1
+    name: level1
+    description: Write and execute shellcode to read the flag!
+  - id: level-2
+    name: level2
+    description: Write and execute shellcode to read the flag, but a portion of your input is randomly skipped.
+  - id: level-3
+    name: level3
+    description: Write and execute shellcode to read the flag, but your inputted data is filtered before execution.
+  - id: level-4
+    name: level4
+    description: Write and execute shellcode to read the flag, but your inputted data is filtered before execution.
+  - id: level-5
+    name: level5
+    description: Write and execute shellcode to read the flag, but the inputted data cannot contain any form of system call
+      bytes (syscall, sysenter, int), can you defeat this?
+  - id: level-6
+    name: level6
+    description: Write and execute shellcode to read the flag, but the inputted data cannot contain any form of system call
+      bytes (syscall, sysenter, int), this challenge adds an extra layer of difficulty!
+  - id: level-7
+    name: level7
+    description: Write and execute shellcode to read the flag, but all file descriptors (including stdin, stderr and stdout!)
+      are closed.
+  - id: level-8
+    name: level8
+    description: Write and execute shellcode to read the flag, but you only get 18 bytes.
+  - id: level-9
+    name: level9
+    description: Write and execute shellcode to read the flag, but your input has data inserted into it before being executed.
+  - id: level-10
+    name: level10
+    description: Write and execute shellcode to read the flag, but your input is sorted before being executed!
+  - id: level-11
+    name: level11
+    description: Write and execute shellcode to read the flag, but your input is sorted before being executed and stdin is
+      closed.
+  - id: level-12
+    name: level12
+    description: Write and execute shellcode to read the flag, but every byte in your input must be unique.
+  - id: level-13
+    name: level13
+    description: Write and execute shellcode to read the flag, but this time you only get 12 bytes!
+  - id: level-14
+    name: level14
+    description: "Write and execute shellcode to read the flag, but this time you only get 6 bytes :)"
+  resources:
+  - name: "Shellcode Injection: Introduction"
+    type: lecture
+    video: 715v_-YnpT8
+    playlist: PL-ymxv0nOtqomtHqMqqgpuvWdVSs9NCBK
+    slides: 1kkfh-dhgxfIZPB1ziyW2JQiC1MbQWn8c7e24kOoDxJ4
+  - name: "Shellcode Injection: Common Challenges"
+    type: lecture
+    video: i1jXV8W-CYQ
+    playlist: PL-ymxv0nOtqomtHqMqqgpuvWdVSs9NCBK
+    slides: 1BHsKKkodMLXcHyqJCU0wDgexQ8jHEEiAU9Uq_Z9mibY
+  - name: "Shellcode Injection: Data Execution Prevention"
+    type: lecture
+    video: GH4NBLtPmyo
+    playlist: PL-ymxv0nOtqomtHqMqqgpuvWdVSs9NCBK
+    slides: 1tH6jbnpX2_T5ZeDzZBfpLZ-ngpIZp3g25PPQaTr52JU
+  - name: "[SLIDES ONLY] Shellcode Injection: Introduction"
+    type: lecture
+    slides: 1xDFuZJ0uQDQVYEXlSMt1T5RfEGFYOUWLBWUmcSbEpE0
+  - name: "[SLIDES ONLY] Shellcode Injection: Writing Shellcode"
+    type: lecture
+    slides: 1NadBrhE3UGweOL4tBv9PH_Q_DVcNCHfs1UJvDEULPQU
+  - name: "[SLIDES ONLY] Shellcode Injection: Debugging Shellcode"
+    type: lecture
+    slides: 1vqWvB4Nf3edISudyOhab60nj5flj0LowUjDPDVQkXaI
+  - name: "[SLIDES ONLY] Shellcode Injection: Forbidden Bytes"
+    type: lecture
+    slides: 1hPytJU8zOnWBG2bEVrt90evWZt8exJd4CHyjHGM-W6Y
+  - name: "[SLIDES ONLY] Shellcode Injection: Common Gotchas"
+    type: lecture
+    slides: 1lJ30DUtUK_HYtTRLRkNhAzUvFXTEg8T5Z4rO_EI-SMA
+  - name: "[SLIDES ONLY] Shellcode Injection: Cross-Architecture Shellcode"
+    type: lecture
+    slides: 1cuciNDnrPv2WGGQRjmNBTbRCwDhTlaKTp1lNvh4rnpE
+  - name: "[SLIDES ONLY] Shellcode Injection: Data Execution Prevention"
+    type: lecture
+    slides: 1tH6jbnpX2_T5ZeDzZBfpLZ-ngpIZp3g25PPQaTr52JU
+  - name: Further Reading
+    type: markdown
+    content: |
+      Lots of external resources are referred to in the module videos.
+      Additionally, the following reading material is useful:
+
+      - [Wikipedia](https://en.wikipedia.org/wiki/Shellcode)
+      - [x86_64 assembly listing](http://ref.x86asm.net/coder64.html)
+      - [Syscall Table](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)
+      - [Another syscall table, with multiple architectures!](https://syscall.sh/)
+
+- id: reverse-engineering
+  name: Reverse Engineering
+  description: TODO
+  challenges:
+  - id: level-1-0
+    name: level1.0
+    description: Reverse engineer this challenge to find the correct license key.
+  - id: level-1-1
+    name: level1.1
+    description: Reverse engineer this challenge to find the correct license key.
+  - id: level-2-0
+    name: level2.0
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-2-1
+    name: level2.1
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-3-0
+    name: level3.0
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-3-1
+    name: level3.1
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-4-0
+    name: level4.0
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-4-1
+    name: level4.1
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-5-0
+    name: level5.0
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-5-1
+    name: level5.1
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-6-0
+    name: level6.0
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-6-1
+    name: level6.1
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-7-0
+    name: level7.0
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-7-1
+    name: level7.1
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-8-0
+    name: level8.0
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-8-1
+    name: level8.1
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key.
+  - id: level-9-0
+    name: level9.0
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key. This challenge allows you to patch 5 bytes in the binary.
+  - id: level-9-1
+    name: level9.1
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key. This challenge allows you to patch 5 bytes in the binary.
+  - id: level-10-0
+    name: level10.0
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key. This challenge allows you to patch 1 byte in the binary.
+  - id: level-10-1
+    name: level10.1
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key. This challenge allows you to patch 1 byte in the binary.
+  - id: level-11-0
+    name: level11.0
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key. This challenge allows you to patch 2 bytes in the binary, but performs an
+      integrity check afterwards.
+  - id: level-11-1
+    name: level11.1
+    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
+      before being compared to the correct key. This challenge allows you to patch 2 bytes in the binary, but performs an
+      integrity check afterwards.
+  - id: level-12-0
+    name: level12.0
+    description: |-
+      We're about to dive into reverse engineering obfuscated code!
+      To better prepare you for the journey ahead, this challenge is a very straightforward crackme, but using slightly different code, memory layout, and input format.
+      We will progressively obfuscate this in future levels, but this level should be a freebie!
+  - id: level-12-1
+    name: level12.1
+    description: |-
+      We're about to dive into reverse engineering obfuscated code!
+      To better prepare you for the journey ahead, this challenge is a very straightforward crackme, but using slightly different code, memory layout, and input format.
+      We will progressively obfuscate this in future levels, but this level should be a freebie!
+  - id: level-13-0
+    name: level13.0
+    description: |-
+      Let's dive into reverse engineering obfuscated code!
+      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
+      If you are clever, you won't need to reverse _too_ much VM code.
+  - id: level-13-1
+    name: level13.1
+    description: |-
+      Let's dive into reverse engineering obfuscated code!
+      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
+      If you are clever, you won't need to reverse _too_ much VM code.
+  - id: level-14-0
+    name: level14.0
+    description: |-
+      Let's dive into reverse engineering obfuscated code!
+      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
+      If you are clever, you won't need to reverse _too_ much VM code.
+  - id: level-14-1
+    name: level14.1
+    description: |-
+      Let's dive into reverse engineering obfuscated code!
+      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
+      If you are clever, you won't need to reverse _too_ much VM code.
+  - id: level-15-0
+    name: level15.0
+    description: |-
+      Let's dive into reverse engineering obfuscated code!
+      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
+      If you are clever, you won't need to reverse _too_ much VM code.
+  - id: level-15-1
+    name: level15.1
+    description: |-
+      Let's dive into reverse engineering obfuscated code!
+      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
+      If you are clever, you won't need to reverse _too_ much VM code.
+  - id: level-16-0
+    name: level16.0
+    description: |-
+      Let's continue deeper in reverse engineering obfuscated code!
+      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
+  - id: level-16-1
+    name: level16.1
+    description: |-
+      Let's continue deeper inreverse engineering obfuscated code!
+      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
+  - id: level-17-0
+    name: level17.0
+    description: "This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand\
+      \ how to get the flag!"
+  - id: level-17-1
+    name: level17.1
+    description: "This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand\
+      \ how to get the flag!"
+  - id: level-18-0
+    name: level18.0
+    description: "This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand\
+      \ how to get the flag!"
+  - id: level-18-1
+    name: level18.1
+    description: "This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand\
+      \ how to get the flag!"
+  - id: level-19-0
+    name: level19.0
+    description: |-
+      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
+      This is a full end-to-end obfuscated challenge, like you might see in real-world obfuscated code!
+  - id: level-19-1
+    name: level19.1
+    description: |-
+      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
+      This is a full end-to-end obfuscated challenge, like you might see in real-world obfuscated code!
+  - id: level-20-0
+    name: level20.0
+    description: 'Reverse engineer this custom emulator and architecture to understand how to get the flag! '
+  - id: level-20-1
+    name: level20.1
+    description: 'Reverse engineer this custom emulator and architecture to understand how to get the flag! '
+  - id: level-21-0
+    name: level21.0
+    description: Reverse engineer this custom emulator and architecture, and write your own custom shellcode to get the flag.
+  - id: level-21-1
+    name: level21.1
+    description: Reverse engineer this custom emulator and architecture, and write your own custom shellcode to get the flag.
+  - id: level-22-0
+    name: level22.0
+    description: |-
+      Reverse engineer this custom emulator and architecture, and write your own custom shellcode to get the flag, with a twist.
+      This is the final boss.
+      Are you a true Yan-head?
+  - id: level-22-1
+    name: level22.1
+    description: |-
+      Reverse engineer this custom emulator and architecture, and write your own custom shellcode to get the flag, with a twist.
+      This is the final boss.
+      Are you a true Yan-head?
+  resources:
+  - name: "Reverse Engineering: Introduction"
+    type: lecture
+    video: ClVocVk1c5g
+    playlist: PL-ymxv0nOtqrGVyPIpJeostmi7zW5JS5l
+    slides: 1hw_STBTJh4xqMv4TZAPRqt2rYIEAXXaCQlaBetxUufU
+  - name: "Reverse Engineering: Functions and Frames"
+    type: lecture
+    video: 3IdeyjrMBA4
+    playlist: PL-ymxv0nOtqrGVyPIpJeostmi7zW5JS5l
+    slides: 125gIw6rNKvwa-1DO6j3HTWbWtr2q3xD2coTCb0CgmAw
+  - name: "Reverse Engineering: Data Access"
+    type: lecture
+    video: AtVprTb5xBs
+    playlist: PL-ymxv0nOtqrGVyPIpJeostmi7zW5JS5l
+    slides: 154CQfQtpleaAQv9xNI1FVosbXc_18VZvXVpcs9Ljzzo
+  - name: "Reverse Engineering: Static Tools"
+    type: lecture
+    video: ls4Eoew6aSY
+    playlist: PL-ymxv0nOtqrGVyPIpJeostmi7zW5JS5l
+    slides: 1GcRLX3-cD9eLweEixmBPfawY7viOQWApG7E_HFfqHQQ
+  - name: "Reverse Engineering: Dynamic Tools"
+    type: lecture
+    video: HcBordv7aWU
+    playlist: PL-ymxv0nOtqrGVyPIpJeostmi7zW5JS5l
+    slides: 13yzjaRTIlloV8Lg5fcQN2ZYXooVqizLgHVby1ltYeWY
+  - name: "Reverse Engineering: Real-world Applications"
+    type: lecture
+    video: 2pqvHSy11JE
+    playlist: PL-ymxv0nOtqrGVyPIpJeostmi7zW5JS5l
+    slides: 1HWiy6OzvPO8YhgTPOsALobh9LagZsJ3Jsx7DJFLAKn4
+  - name: Other Resources
+    type: markdown
+    content: |
+      There are many resources related to reverse engineering around the internet.
+
+      - A good place to start is a series of walkthroughs of several hacking challenges by ASU's own Adam Doupe on his [YouTube channel](https://www.youtube.com/watch?v=qGt-0OOAFcM&list=PLK06XT3hFPziMAZj8QuoqC8iVaEbrlZWh).
+      - A comprehensive revese engineering [tutorial series](https://github.com/mytechnotalent/Reverse-Engineering).
+  - name: Useful Tools
+    type: markdown
+    content: |
+      As mentioned in the slides, there are a number of useful tools for this assignment!
+      Here is a (non-exhaustive) list:
+
+      * `gdb` will let you run and inspect the state of these programs.
+        Please check out the Debugging Refresher module.
+        We have also provided a quick briefer here.
+        Some useful gdb concepts:
+         * Know the difference between `step instruction` (`si`) and `next instruction` (`ni`).
+           It boils down to the fact that `si` will follow jumps, and `ni` will step over jumps.
+           This means that if you use `si`, you will quickly find yourself crawling through libc code, which is insane and unnecessary.
+         * You can use `x/i $rip` to disassemble the next instruction that will be executed.
+           You can call `display/i $rip` to make the next instruction display every time gdb prompts you for input.
+           You can also do `x/2i` and `display/2i` to print two (or other quantities of) instructions.
+         * The `disas` command will disassemble the current function that you are looking at.
+         * gdb can be scripted!
+           Look up conditional breakpoints and scriptable breakpoints in the gdb manual.
+         * Modern binaries are _position independent_, meaning that they can be loaded anywhere in memory when they run.
+           GDB will load them at the offset `0x555555554000`.
+           This means that if objdump is telling you that main starts at some address like, `0x100`, the address when debugging with GDB will be `0x555555554100`
+      * `strings` will list printable strings in the file.
+        This is useful for looking for constant strings that the program checks for (such as file names and so on) in the course of getting input.
+        Keep in mind that the options for string include a minimum size that it will print.
+      * Don't forget about pwntools! You will need to interact heavily with these programs. Do it right (with pwntools).
+      * `rappel` is a nice tool to help you figure out what certain instructions do.
+      * Tools for reverse engineering actual binaries:
+         * IDA, accessible via the Desktop in the dojo, is the industry standard of reverse-engineering tools.
+         * Ghidra, also accessible via the Desktop in the dojo, is an open source direct competitor to IDA that is used and loved by many.
+         * angr-management, also accessible via the Desktop in the dojo, is an open source up-and-coming reversing tool with some advanced functionality.
+         * [Binary Ninja Cloud](https://cloud.binary.ninja), accessible separately through your web browser, is a free binary reverse engineering tool.
+         * In a pinch, `objdump -d -M intel the_binary` will disassemble the binary you want to look at.
+           `-M intel`, in that command, makes objdump give you nice and readable Intel assembly syntax.
+
+- id: memory-errors
+  name: Memory Errors
+  description: TODO
+  challenges:
+  - id: level-1-0
+    name: level1.0
+    description: Overflow a buffer on the stack to set the right conditions to obtain the flag!
+  - id: level-1-1
+    name: level1.1
+    description: Overflow a buffer on the stack to set the right conditions to obtain the flag!
+  - id: level-2-0
+    name: level2.0
+    description: Overflow a buffer on the stack to set trickier conditions to obtain the flag!
+  - id: level-2-1
+    name: level2.1
+    description: Overflow a buffer on the stack to set trickier conditions to obtain the flag!
+  - id: level-3-0
+    name: level3.0
+    description: Overflow a buffer and smash the stack to obtain the flag!
+  - id: level-3-1
+    name: level3.1
+    description: Overflow a buffer and smash the stack to obtain the flag!
+  - id: level-4-0
+    name: level4.0
+    description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass a check designed to prevent
+      you from doing so!
+  - id: level-4-1
+    name: level4.1
+    description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass a check designed to prevent
+      you from doing so!
+  - id: level-5-0
+    name: level5.0
+    description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to
+      prevent you from doing so!
+  - id: level-5-1
+    name: level5.1
+    description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to
+      prevent you from doing so!
+  - id: level-6-0
+    name: level6.0
+    description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to
+      prevent you from doing so!
+  - id: level-6-1
+    name: level6.1
+    description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to
+      prevent you from doing so!
+  - id: level-7-0
+    name: level7.0
+    description: Overflow a buffer and smash the stack to obtain the flag, but this time in a position independent (PIE) binary!
+  - id: level-7-1
+    name: level7.1
+    description: Overflow a buffer and smash the stack to obtain the flag, but this time in a position independent (PIE) binary!
+  - id: level-8-0
+    name: level8.0
+    description: Overflow a buffer and smash the stack to obtain the flag, but this time in a position independent (PIE) binary
+      with an additional check on your input.
+  - id: level-8-1
+    name: level8.1
+    description: Overflow a buffer and smash the stack to obtain the flag, but this time in a position independent (PIE) binary
+      with an additional check on your input.
+  - id: level-9-0
+    name: level9.0
+    description: Overflow a buffer and smash the stack to obtain the flag, but this time in a PIE binary with a stack canary.
+      Be warned, this requires careful and clever payload construction!
+  - id: level-9-1
+    name: level9.1
+    description: Overflow a buffer and smash the stack to obtain the flag, but this time in a PIE binary with a stack canary.
+      Be warned, this requires careful and clever payload construction!
+  - id: level-10-0
+    name: level10.0
+    description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
+  - id: level-10-1
+    name: level10.1
+    description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
+  - id: level-11-0
+    name: level11.0
+    description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
+  - id: level-11-1
+    name: level11.1
+    description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
+  - id: level-12-0
+    name: level12.0
+    description: Defeat a stack canary in a PIE binary by utilizing a bug left in the binary.
+  - id: level-12-1
+    name: level12.1
+    description: Defeat a stack canary in a PIE binary by utilizing a bug left in the binary.
+  - id: level-13-0
+    name: level13.0
+    description: Leak data left behind unintentionally by utilizing clever payload construction.
+  - id: level-13-1
+    name: level13.1
+    description: Leak data left behind unintentionally by utilizing clever payload construction.
+  - id: level-14-0
+    name: level14.0
+    description: Leak data left behind unintentionally to defeat a stack canary in a PIE binary.
+  - id: level-14-1
+    name: level14.1
+    description: Leak data left behind unintentionally to defeat a stack canary in a PIE binary.
+  - id: level-15-0
+    name: level15.0
+    description: Defeat a stack canary in a PIE binary by utilizing a network-style fork server in the target binary.
+  - id: level-15-1
+    name: level15.1
+    description: Defeat a stack canary in a PIE binary by utilizing a network-style fork server in the target binary.
+  resources:
+  - name: "Memory Errors: Introduction"
+    type: lecture
+    video: z_XOhfsVKnU
+    playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
+    slides: 10cq3gCAvYjh_fzqiLLc1hCyqchux7x8pcskk6xGdVL8
+  - name: "Memory Errors: High-level Problems"
+    type: lecture
+    video: 4PJvcZZIyT8
+    playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
+    slides: 1umxk_Gq_yGeCcBEz9toQ6Wil8G1bmK3NdrkFITadPhs
+  - name: "Memory Errors: Smashing the Stack"
+    type: lecture
+    video: PVx1hUlMxtQ
+    playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
+    slides: 1_Zs7s7O_VqXd8prv0GIjUT993qL3KgjVby8qC0Ixs_w
+  - name: "Memory Errors: Causes of Corruption 1"
+    type: lecture
+    video: u80_j06HkpM
+    playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
+    slides: 1N5ybP1-SyU-PbQKMBRfFdNntbLPCOkROOybf_ZYBBBI
+  - name: "Memory Errors: Causes of Corruption 2"
+    type: lecture
+    video: fVa2xahshik
+    playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
+    slides: 1N5ybP1-SyU-PbQKMBRfFdNntbLPCOkROOybf_ZYBBBI
+  - name: "Memory Errors: Stack Canaries"
+    type: lecture
+    video: 55zWlEFflgE
+    playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
+    slides: 19bO811-RSjez-E8zGMJYvUwFi5jW-vRTv19z1g8ZT3I
+  - name: "Memory Errors: ASLR"
+    type: lecture
+    video: SBqERAbDdAk
+    playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
+    slides: 1EOUvQsDsk5eg1Ysq9Us-CnLgCOP5IRIR8P6FThBVeGo
+  - name: "Memory Errors: Causes of Disclosure"
+    type: lecture
+    video: S9IIGVK6K0I
+    playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
+    slides: 1Qonbh98U_s3aN9Ut0dgdHFnm_ymb9e2yUqT6bkY4FbU
+  - name: Further Reading
+    type: markdown
+    content: "- The course [\"Vulnerabilities 1001: C-Family Implementation Vulnerabilities\"](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Vulns1001_C-derived+2022_v1/about)\
+      \ from OpenSecurityTraining2 dives into other types and causes of vulnerabilities in C code!\n"
+
+- id: program-exploitation
+  name: Program Exploitation
+  description: TODO
+  challenges:
+  - id: level-1-0
+    name: level1.0
+    description: Write a full exploit involving shellcode and a method of tricking the challenge into executing it.
+  - id: level-1-1
+    name: level1.1
+    description: Write a full exploit involving shellcode and a method of tricking the challenge into executing it.
+  - id: level-2-0
+    name: level2.0
+    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing
+      it.
+  - id: level-2-1
+    name: level2.1
+    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing
+      it.
+  - id: level-3-0
+    name: level3.0
+    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing
+      it by utilizing clever payload construction.
+  - id: level-3-1
+    name: level3.1
+    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing
+      it by utilizing clever payload construction.
+  - id: level-4-0
+    name: level4.0
+    description: Write a full exploit involving injecting shellcode, reverse engineering, and a method of tricking the challenge
+      into executing your payload.
+  - id: level-4-1
+    name: level4.1
+    description: Write a full exploit involving injecting shellcode, reverse engineering, and a method of tricking the challenge
+      into executing your payload.
+  - id: level-5-0
+    name: level5.0
+    description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking
+      the challenge into executing your payload.
+  - id: level-5-1
+    name: level5.1
+    description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking
+      the challenge into executing your payload.
+  - id: level-6-0
+    name: level6.0
+    description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking
+      the challenge into into executing your payload.
+  - id: level-6-1
+    name: level6.1
+    description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking
+      the challenge into into executing your payload.
+  - id: level-7-0
+    name: level7.0
+    description: Write a full exploit for a custom VM involving injecting shellcode and a method of tricking the challenge
+      into executing it by locating and utilizing a bug in the challenge.
+  - id: level-7-1
+    name: level7.1
+    description: Write a full exploit for a custom VM involving injecting shellcode and a method of tricking the challenge
+      into executing it by locating and utilizing a bug in the challenge.
+  - id: level-8-0
+    name: level8.0
+    description: Write a full exploit for a custom VM involving injecting shellcode, and a method of tricking the challenge
+      into executing it by locating and utilizing a bug in the challenge.
+  - id: level-8-1
+    name: level8.1
+    description: Write a full exploit for a custom VM involving injecting shellcode, and a method of tricking the challenge
+      into executing it by locating and utilizing a bug in the challenge.
+  - id: level-9-0
+    name: level9.0
+    description: 'Provide your own Yan85 shellcode! This time, it''s filtered '
+  - id: level-9-1
+    name: level9.1
+    description: 'Provide your own Yan85 shellcode! This time, it''s filtered '
+  - id: level-10-0
+    name: level10.0
+    description: The ultimate Yan85 challenge. Provide your own Yan85 shellcode.
+  - id: level-10-1
+    name: level10.1
+    description: The ultimate Yan85 challenge. Provide your own Yan85 shellcode.
+  - id: level-11-0
+    name: level11.0
+    description: The ultimate Yan85 challenge. Provide your own Yan85 shellcode. Now updated for modern hardware!
+  - id: level-11-1
+    name: level11.1
+    description: The ultimate Yan85 challenge. Provide your own Yan85 shellcode. Now updated for modern hardware!
+  resources:
+  - name: "Exploitation Scenarios: Introduction"
+    type: lecture
+    video: A5CnZGst5u4
+    playlist: PL-ymxv0nOtqp4FnPpSp-o-R196pYwF3QI
+    slides: 1__cUrVerXgj8xhUbDoeT59vavO_BI1ah3F8a4yNTE40
+  - name: "Exploitation Scenarios: Hijacking to Shellcode"
+    type: lecture
+    video: lsY2g09Hjr0
+    playlist: PL-ymxv0nOtqp4FnPpSp-o-R196pYwF3QI
+    slides: 15Ad42MRjETONK3hPp4cOhYWMqHL8ynoxJtXiawR4ro8
+  - name: "Exploitation Scenarios: Side Effects"
+    type: lecture
+    video: AwhN_7YNVLo
+    playlist: PL-ymxv0nOtqp4FnPpSp-o-R196pYwF3QI
+    slides: 16fwwUjDuGtIRv1p6sGtJZGTEkEXBRCD1Eb4YIEcIufo
+  - name: "Exploitation Scenarios: JIT Spray"
+    type: lecture
+    video: RHPxiRBapA4
+    playlist: PL-ymxv0nOtqp4FnPpSp-o-R196pYwF3QI
+    slides: 1eO49S6JFknXGD5VPv2OeoAuBRp-Ab4HqaQ_mxZXmn14
+
