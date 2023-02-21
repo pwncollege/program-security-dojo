@@ -3,6 +3,8 @@ name: Program Security
 description: |
   TODO: say something cool about program security.
 
+type: topic
+
 modules:
 
 - id: shellcode-injection
