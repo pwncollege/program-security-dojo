@@ -529,8 +529,8 @@ modules:
     slides: 1Qonbh98U_s3aN9Ut0dgdHFnm_ymb9e2yUqT6bkY4FbU
   - name: Further Reading
     type: markdown
-    content: "- The course [\"Vulnerabilities 1001: C-Family Implementation Vulnerabilities\"](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Vulns1001_C-derived+2022_v1/about)\
-      \ from OpenSecurityTraining2 dives into other types and causes of vulnerabilities in C code!\n"
+    content: |
+      - OpenSecurityTraining2 has courses covering security vulnerabilities: [Vulnerabilities 1001](https://ost2.fyi/Vulns1001) and [Vulnerabilities 1002](https://ost2.fyi/Vulns1002).
 
 - id: program-exploitation
   name: Program Exploitation
