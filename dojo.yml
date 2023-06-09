@@ -13,7 +13,7 @@ modules:
 
 - id: shellcode-injection
   name: Shellcode Injection
-  description: TODO
+  description:
   challenges:
   - id: level-1
     name: level1
@@ -111,7 +111,7 @@ modules:
 
 - id: reverse-engineering
   name: Reverse Engineering
-  description: TODO
+  description:
   challenges:
   - id: level-1-0
     name: level1.0
@@ -384,7 +384,7 @@ modules:
 
 - id: memory-errors
   name: Memory Errors
-  description: TODO
+  description:
   challenges:
   - id: level-1-0
     name: level1.0
@@ -534,7 +534,7 @@ modules:
 
 - id: program-exploitation
   name: Program Exploitation
-  description: TODO
+  description:
   challenges:
   - id: level-1-0
     name: level1.0
