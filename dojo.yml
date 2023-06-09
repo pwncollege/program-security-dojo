@@ -530,7 +530,7 @@ modules:
   - name: Further Reading
     type: markdown
     content: |
-      - OpenSecurityTraining2 has courses covering security vulnerabilities: [Vulnerabilities 1001](https://ost2.fyi/Vulns1001) and [Vulnerabilities 1002](https://ost2.fyi/Vulns1002).
+      * OpenSecurityTraining2 has courses covering security vulnerabilities: [Vulnerabilities 1001](https://ost2.fyi/Vulns1001) and [Vulnerabilities 1002](https://ost2.fyi/Vulns1002).
 
 - id: program-exploitation
   name: Program Exploitation
