@@ -31,9 +31,9 @@ modules:
     Dancing with a processor isn't just about knowing the steps, but understanding the language and semantics of each instruction.
     While you'll have the stage to yourself, we ensure you're never alone on this journey.
     Equip yourself with these invaluable scrolls of wisdom:
-    - [Felix Cloutier's x86 Semantics](https://www.felixcloutier.com/x86/): Dive into the heartbeats of instructions, ensuring you're always in step.
     - [x64.syscall.sh](https://x64.syscall.sh): Your cheat sheet for syscalls. A glance here, and you're always ahead.
     - [Syscalls Manpage](https://man7.org/linux/man-pages/man2/syscalls.2.html): Understand not just the calls, but their deeper implications.
+    - [Felix Cloutier](https://www.felixcloutier.com/x86/): Dive into the heartbeats of instructions, ensuring you're always in step.    
     - [x86asm Reference](http://ref.x86asm.net/coder64.html): Decode the bytes into moves, turning the tables on any challenge.
 
     As you embark on this journey, remember, it's not just about taking control; it's about finesse, elegance, and the joy of the dance.
