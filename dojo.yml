@@ -1,5 +1,9 @@
 id: program-security
 name: Program Security
+
+award:
+  belt: yellow
+
 description: |
   It is all too easy to live life without questioning the arcane logic underlying our reality.
   How do the programs we use every day actually work?
