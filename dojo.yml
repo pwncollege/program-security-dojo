@@ -606,11 +606,11 @@ modules:
   - id: level-6-0
     name: level6.0
     description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking
-      the challenge into into executing your payload.
+      the challenge into executing your payload.
   - id: level-6-1
     name: level6.1
     description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking
-      the challenge into into executing your payload.
+      the challenge into executing your payload.
   - id: level-7-0
     name: level7.0
     description: Write a full exploit for a custom VM involving injecting shellcode and a method of tricking the challenge
