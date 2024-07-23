@@ -573,60 +573,46 @@ modules:
     description: Write a full exploit involving shellcode and a method of tricking the challenge into executing it.
   - id: level-2-0
     name: level2.0
-    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing.  Note, ASLR is disabled!
-      it.
+    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing it.  Note, ASLR is disabled!
   - id: level-2-1
     name: level2.1
-    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing.  Note, ASLR is disabled!
-      it.
+    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing it.  Note, ASLR is disabled!
   - id: level-3-0
     name: level3.0
-    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing
-      it by utilizing clever payload construction.
+    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing it by utilizing clever payload construction.
   - id: level-3-1
     name: level3.1
-    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing
-      it by utilizing clever payload construction.
+    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing it by utilizing clever payload construction.
   - id: level-4-0
     name: level4.0
-    description: Write a full exploit involving injecting shellcode, reverse engineering, and a method of tricking the challenge
-      into executing your payload.
+    description: Write a full exploit involving injecting shellcode, reverse engineering, and a method of tricking the challenge into executing your payload.
   - id: level-4-1
     name: level4.1
-    description: Write a full exploit involving injecting shellcode, reverse engineering, and a method of tricking the challenge
-      into executing your payload.
+    description: Write a full exploit involving injecting shellcode, reverse engineering, and a method of tricking the challenge into executing your payload.
   - id: level-5-0
     name: level5.0
-    description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking
-      the challenge into executing your payload.
+    description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking the challenge into executing your payload.
   - id: level-5-1
     name: level5.1
-    description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking
-      the challenge into executing your payload.
+    description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking the challenge into executing your payload.
   - id: level-6-0
     name: level6.0
-    description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking
-      the challenge into executing your payload.
+    description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking the challenge into executing your payload.
   - id: level-6-1
     name: level6.1
-    description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking
-      the challenge into executing your payload.
+    description: Write a full exploit involving injecting shellcode, reverse engineering, seccomp, and a method of tricking the challenge into executing your payload.
   - id: level-7-0
     name: level7.0
-    description: Write a full exploit for a custom VM involving injecting shellcode and a method of tricking the challenge.  Note, ASLR is disabled!
-      into executing it by locating and utilizing a bug in the challenge.
+    description: Write a full exploit for a custom VM involving injecting shellcode and a method of tricking the challenge into executing it by locating and utilizing a bug in the challenge.  Note, ASLR is disabled!
   - id: level-7-1
     name: level7.1
-    description: Write a full exploit for a custom VM involving injecting shellcode and a method of tricking the challenge.  Note, ASLR is disabled!
-      into executing it by locating and utilizing a bug in the challenge.
+    description: Write a full exploit for a custom VM involving injecting shellcode and a method of tricking the challenge into executing it by locating and utilizing a bug in the challenge.  Note, ASLR is disabled!
   - id: level-8-0
     name: level8.0
-    description: Write a full exploit for a custom VM involving injecting shellcode, and a method of tricking the challenge
-      into executing it by locating and utilizing a bug in the challenge.
+    description: Write a full exploit for a custom VM involving injecting shellcode, and a method of tricking the challenge into executing it by locating and utilizing a bug in the challenge.
   - id: level-8-1
     name: level8.1
-    description: Write a full exploit for a custom VM involving injecting shellcode, and a method of tricking the challenge
-      into executing it by locating and utilizing a bug in the challenge.
+    description: Write a full exploit for a custom VM involving injecting shellcode, and a method of tricking the challenge into executing it by locating and utilizing a bug in the challenge.
   - id: level-9-0
     name: level9.0
     description: 'Provide your own Yan85 shellcode! This time, it''s filtered '
