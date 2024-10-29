@@ -1,5 +1,6 @@
 id: program-security
 name: Program Security
+image: pwncollege/challenge-legacy:latest
 
 award:
   belt: yellow
