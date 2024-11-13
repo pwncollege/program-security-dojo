@@ -1,6 +1,6 @@
 variants: 16
 keep_source: false
-binary_name: babymem
+binary_name_prefix: babymem
 build_image: pwncollege/challenge-legacy:latest
 verify_image: pwncollege/challenge-legacy:latest
 challenges:
