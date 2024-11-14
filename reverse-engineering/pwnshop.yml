@@ -123,7 +123,7 @@ challenges:
 - id: level-15-1
   challenge: BabyRevYan85BasicMemcmp
   walkthrough: false
-  seed: 13371500
+  seed: 313371500
 - id: level-16-0
   challenge: BabyRevYan85ManualMemcmp
   walkthrough: true
@@ -131,7 +131,7 @@ challenges:
 - id: level-16-1
   challenge: BabyRevYan85ManualMemcmp
   walkthrough: false
-  seed: 13371600
+  seed: 313371600
 - id: level-17-0
   challenge: BabyRevYan85Manglers
   walkthrough: true
@@ -139,7 +139,7 @@ challenges:
 - id: level-17-1
   challenge: BabyRevYan85Manglers
   walkthrough: false
-  seed: 13371700
+  seed: 313371700
 - id: level-18-0
   challenge: BabyRevYan85MangledMemcmp
   walkthrough: true
@@ -147,7 +147,7 @@ challenges:
 - id: level-18-1
   challenge: BabyRevYan85MangledMemcmp
   walkthrough: false
-  seed: 13371800
+  seed: 313371800
 - id: level-19-0
   challenge: BabyRevYan85EmulatorBasic
   walkthrough: true
@@ -155,7 +155,7 @@ challenges:
 - id: level-19-1
   challenge: BabyRevYan85EmulatorBasic
   walkthrough: false
-  seed: 13371900
+  seed: 313371900
 - id: level-20-0
   challenge: BabyRevYan85EmulatorMangled
   walkthrough: true
@@ -163,7 +163,7 @@ challenges:
 - id: level-20-1
   challenge: BabyRevYan85EmulatorMangled
   walkthrough: false
-  seed: 13372000
+  seed: 313372000
 - id: level-21-0
   challenge: BabyRevYan85EmulatorUserInput
   walkthrough: true
@@ -171,7 +171,7 @@ challenges:
 - id: level-21-1
   challenge: BabyRevYan85EmulatorUserInput
   walkthrough: false
-  seed: 13372100
+  seed: 313372100
 - id: level-22-0
   challenge: BabyRevYan85BlindEmulatorUserInput
   walkthrough: true
@@ -179,5 +179,5 @@ challenges:
 - id: level-22-1
   challenge: BabyRevYan85BlindEmulatorUserInput
   walkthrough: false
-  seed: 13372200
+  seed: 313372200
 
