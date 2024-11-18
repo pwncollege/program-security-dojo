@@ -4,21 +4,45 @@ challenges:
 - id: level-1-0
   name: level1.0
   description: Overflow a buffer on the stack to set the right conditions to obtain the flag!
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: first-overflow-w
 - id: level-1-1
   name: level1.1
   description: Overflow a buffer on the stack to set the right conditions to obtain the flag!
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: first-overflow
 - id: level-2-0
   name: level2.0
   description: Overflow a buffer on the stack to set trickier conditions to obtain the flag!
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: var-control-w
 - id: level-2-1
   name: level2.1
   description: Overflow a buffer on the stack to set trickier conditions to obtain the flag!
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: var-control
 - id: level-3-0
   name: level3.0
   description: Overflow a buffer and smash the stack to obtain the flag!
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: control-hijack-w
 - id: level-3-1
   name: level3.1
   description: Overflow a buffer and smash the stack to obtain the flag!
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: control-hijack
 - id: level-4-0
   name: level4.0
   description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass a check designed to prevent
@@ -39,24 +63,48 @@ challenges:
   name: level6.0
   description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to
     prevent you from doing so!
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: control-hijack-2-w
 - id: level-6-1
   name: level6.1
   description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to
     prevent you from doing so!
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: control-hijack-2
 - id: level-7-0
   name: level7.0
   description: Overflow a buffer and smash the stack to obtain the flag, but this time in a position independent (PIE) binary!
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: pie-overflow-w
 - id: level-7-1
   name: level7.1
   description: Overflow a buffer and smash the stack to obtain the flag, but this time in a position independent (PIE) binary!
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: pie-overflow
 - id: level-8-0
   name: level8.0
   description: Overflow a buffer and smash the stack to obtain the flag, but this time in a position independent (PIE) binary
     with an additional check on your input.
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: null-write-w
 - id: level-8-1
   name: level8.1
   description: Overflow a buffer and smash the stack to obtain the flag, but this time in a position independent (PIE) binary
     with an additional check on your input.
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: null-write
 - id: level-9-0
   name: level9.0
   description: Overflow a buffer and smash the stack to obtain the flag, but this time in a PIE binary with a stack canary.

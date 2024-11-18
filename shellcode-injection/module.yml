@@ -29,12 +29,24 @@ challenges:
 - id: level-1
   name: level1
   description: Write and execute shellcode to read the flag!
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: basic-shellcode
 - id: level-2
   name: level2
   description: Write and execute shellcode to read the flag, but a portion of your input is randomly skipped.
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: nopsled-shellcode
 - id: level-3
   name: level3
   description: Write and execute shellcode to read the flag, but your inputted data is filtered before execution.
+  import:
+    dojo: intro-to-cybersecurity
+    module: binary-exploitation
+    challenge: null-free-shellcode
 - id: level-4
   name: level4
   description: Write and execute shellcode to read the flag, but your inputted data is filtered before execution.
