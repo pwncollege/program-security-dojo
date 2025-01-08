@@ -18,4 +18,6 @@ modules:
 - id: shellcode-injection
 - id: reverse-engineering
 - id: memory-errors
+- id: return-oriented-programming
+- id: dynamic-allocator-misuse
 - id: program-exploitation
