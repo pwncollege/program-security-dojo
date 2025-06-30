@@ -1,5 +1,0 @@
-#!/bin/bash
-
-NEW_PATH="${PATH/\run\/workspace\/bin:/}"
-PATH="${NEW_PATH}" /usr/bin/gdb $@
-
