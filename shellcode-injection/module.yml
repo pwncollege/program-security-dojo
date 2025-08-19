@@ -1,41 +1,40 @@
 name: Shellcode Injection
 challenges:
 - id: level-4
-  name: level4
+  name: ello ackers!
   description: Write and execute shellcode to read the flag, but your inputted data is filtered before execution.
 - id: level-5
-  name: level5
+  name: Syscall Smuggler
   description: Write and execute shellcode to read the flag, but the inputted data cannot contain any form of system call
     bytes (syscall, sysenter, int), can you defeat this?
-- id: level-6
+- id: Syscall Shenanigans
   name: level6
   description: Write and execute shellcode to read the flag, but the inputted data cannot contain any form of system call
     bytes (syscall, sysenter, int), this challenge adds an extra layer of difficulty!
 - id: level-7
-  name: level7
+  name: Silenced Shellcode
   description: Write and execute shellcode to read the flag, but all file descriptors (including stdin, stderr and stdout!)
     are closed.
 - id: level-8
-  name: level8
+  name: Byte Budget
   description: Write and execute shellcode to read the flag, but you only get 18 bytes.
 - id: level-9
-  name: level9
+  name: ClobberCode
   description: Write and execute shellcode to read the flag, but your input has data inserted into it before being executed.
 - id: level-10
-  name: level10
+  name: Shellcode Shuffle
   description: Write and execute shellcode to read the flag, but your input is sorted before being executed!
 - id: level-11
-  name: level11
-  description: Write and execute shellcode to read the flag, but your input is sorted before being executed and stdin is
-    closed.
+  name: Shellcode Shuffle II
+  description: Write and execute shellcode to read the flag, but your input is sorted before being executed and stdin is closed.
 - id: level-12
-  name: level12
+  name: Diverse Delivery
   description: Write and execute shellcode to read the flag, but every byte in your input must be unique.
 - id: level-13
-  name: level13
+  name: Pocket Payload
   description: Write and execute shellcode to read the flag, but this time you only get 12 bytes!
 - id: level-14
-  name: level14
+  name: Micro Menace
   description: "Write and execute shellcode to read the flag, but this time you only get 6 bytes :)"
 resources:
 - name: "Shellcode Injection: Introduction"
