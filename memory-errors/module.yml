@@ -1,64 +1,58 @@
 name: Intermediate Memory Errors
 challenges:
 - id: level-4-0
-  name: level4.0
-  description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass a check designed to prevent
-    you from doing so!
+  name: Bounds Breaker (Easy)
+  description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass a check designed to prevent you from doing so!
 - id: level-4-1
-  name: level4.1
-  description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass a check designed to prevent
-    you from doing so!
+  name: Bounds Breaker (Hard)
+  description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass a check designed to prevent you from doing so!
 - id: level-5-0
-  name: level5.0
-  description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to
-    prevent you from doing so!
+  name: Casting Catastrophy (Easy)
+  description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to prevent you from doing so!
 - id: level-5-1
-  name: level5.1
-  description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to
-    prevent you from doing so!
+  name: Casting Catastrophy (Hard)
+  description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to prevent you from doing so!
 - id: level-9-0
-  name: level9.0
-  description: Overflow a buffer and smash the stack to obtain the flag, but this time in a PIE binary with a stack canary.
-    Be warned, this requires careful and clever payload construction!
+  name: Loop Lunacy (Easy)
+  description: Overflow a buffer and smash the stack to obtain the flag, but this time in a PIE binary with a stack canary. Be warned, this requires careful and clever payload construction!
 - id: level-9-1
-  name: level9.1
-  description: Overflow a buffer and smash the stack to obtain the flag, but this time in a PIE binary with a stack canary.
-    Be warned, this requires careful and clever payload construction!
+  name: Loop Lunacy (Hard)
+  description: Overflow a buffer and smash the stack to obtain the flag, but this time in a PIE binary with a stack canary. Be warned, this requires careful and clever payload construction!
 - id: level-10-0
-  name: level10.0
+  name: Nosy Neighbor (Easy)
   description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
 - id: level-10-1
-  name: level10.1
+  name: Nosy Neighbor (Hard)
   description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
 - id: level-11-0
-  name: level11.0
+  name: Mmap Mirage (Easy)
   description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
 - id: level-11-1
-  name: level11.1
+  name: Mmap Mirage (Hard)
   description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
 - id: level-12-0
-  name: level12.0
+  name: Recursive Ruin (Easy)
   description: Defeat a stack canary in a PIE binary by utilizing a bug left in the binary.
 - id: level-12-1
-  name: level12.1
+  name: Recursive Ruin (Hard)
   description: Defeat a stack canary in a PIE binary by utilizing a bug left in the binary.
 - id: level-13-0
-  name: level13.0
+  name: Lingering Leftover (Easy)
   description: Leak data left behind unintentionally by utilizing clever payload construction.
 - id: level-13-1
-  name: level13.1
+  name: Lingering Leftover (Hard)
   description: Leak data left behind unintentionally by utilizing clever payload construction.
 - id: level-14-0
-  name: level14.0
+  name: Latent Leak (Easy)
   description: Leak data left behind unintentionally to defeat a stack canary in a PIE binary.
 - id: level-14-1
-  name: level14.1
+  name: Latent Leak (Hard)
   description: Leak data left behind unintentionally to defeat a stack canary in a PIE binary.
 - id: level-15-0
-  name: level15.0
+  name: Fork Foolery (Easy)
   description: Defeat a stack canary in a PIE binary by utilizing a network-style fork server in the target binary.
 - id: level-15-1
-  name: level15.1
+  name: Fork Foolery (Hard)
   description: Defeat a stack canary in a PIE binary by utilizing a network-style fork server in the target binary.
 resources:
 - name: "Memory Errors: Introduction"
