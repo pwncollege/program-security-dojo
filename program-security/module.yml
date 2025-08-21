@@ -4,7 +4,7 @@ description: |
 
 resources:
   - type: header
-    content: Shellcoding
+    content: Shellcoding Resources
   - name: "Shellcode Injection: Introduction"
     type: lecture
     video: 715v_-YnpT8
@@ -34,6 +34,9 @@ resources:
       - [x86_64 assembly listing](http://ref.x86asm.net/coder64.html)
       - [Syscall Table](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)
       - [Another syscall table, with multiple architectures!](https://syscall.sh/)
+
+  - type: header
+    content: Shellcoding challenges
   - id: ello-ackers
     name: ello ackers!
     type: challenge
@@ -102,7 +105,7 @@ resources:
       challenge: level-14
 
   - type: header
-    content: Memory Corruption
+    content: Memory Corruption Resources
   - name: "Memory Errors: Introduction"
     type: challenge
     type: lecture
@@ -157,10 +160,20 @@ resources:
     video: 7TW0fvz_cQk
     playlist: PL-ymxv0nOtqqhKlspuPMwJn5PO3bUAjD7
   - name: Further Reading
-    type: challenge
     type: markdown
     content: |
       * OpenSecurityTraining2 has courses covering security vulnerabilities: [Vulnerabilities 1001](https://ost2.fyi/Vulns1001) and [Vulnerabilities 1002](https://ost2.fyi/Vulns1002).
+
+  - type: header
+    content: Memory Corruption Challenges
+  - id: login-leakage-easy
+    name: Login Leakage (Easy)
+    type: challenge
+    description: Leverage memory corruption to satisfy a simple constraint
+  - id: login-leakage-hard
+    name: Login Leakage (Hard)
+    type: challenge
+    description: Leverage memory corruption to satisfy a simple constraint
 
   - id: bounds-breaker-easy
     name: Bounds Breaker (Easy)
@@ -194,6 +207,15 @@ resources:
       dojo: program-security
       module: memory-errors
       challenge: level-5-1
+  - id: pointer-problems-easy
+    name: Pointer Problems (Easy)
+    type: challenge
+    description: Leverage memory corruption to leak the flag.
+  - id: pointer-problems-hard
+    name: Pointer Problems (Hard)
+    type: challenge
+    description: Leverage memory corruption to leak the flag.
+
   - id: loop-lunacy-easy
     name: Loop Lunacy (Easy)
     type: challenge
@@ -291,5 +313,23 @@ resources:
       module: memory-errors
       challenge: level-15-1
 
-  - type: header
-    content: Exploitation
+  - id: anamalous-array-easy
+    name: Anamalous Array (Easy)
+    type: challenge
+    description: Leverage an Array to obtain the flag.
+  - id: anamalous-array-hard
+    name: Anamalous Array (Hard)
+    type: challenge
+    description: Leverage an Array to obtain the flag.
+  - id: now-you-got-it-easy
+    name: Now you got it (Easy)
+    type: challenge
+    description: Leverage an Array to obtain the flag.
+  - id: now-you-got-it-hard
+    name: Now you got it (Hard)
+    type: challenge
+    description: Leverage an Array to obtain the flag.
+
+  - type: markdown
+    name: Exploitation
+    content: SoonTM
