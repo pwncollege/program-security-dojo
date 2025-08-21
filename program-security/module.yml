@@ -333,6 +333,7 @@ resources:
   - type: header
     content: Exploitation
   - type: markdown
-    content: SoonTM
+    name: Exploitation
+    content: "SoonTM"
     expandable: false
 
