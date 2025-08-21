@@ -15,6 +15,7 @@ description: |
 type: topic
 
 modules:
+- id: program-security
 - id: shellcode-injection
 - id: reverse-engineering
 - id: memory-errors

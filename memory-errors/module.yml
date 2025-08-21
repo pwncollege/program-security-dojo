@@ -24,12 +24,6 @@ challenges:
 - id: level-10-1
   name: Nosy Neighbor (Hard)
   description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
-- id: level-11-0
-  name: Mmap Mirage (Easy)
-  description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
-- id: level-11-1
-  name: Mmap Mirage (Hard)
-  description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
 - id: level-12-0
   name: Recursive Ruin (Easy)
   description: Defeat a stack canary in a PIE binary by utilizing a bug left in the binary.
