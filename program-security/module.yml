@@ -313,11 +313,11 @@ resources:
       module: memory-errors
       challenge: level-15-1
 
-  - id: anamalous-array-easy
+  - id: anomalous-array-easy
     name: Anamalous Array (Easy)
     type: challenge
     description: Leverage an Array to obtain the flag.
-  - id: anamalous-array-hard
+  - id: anomalous-array-hard
     name: Anamalous Array (Hard)
     type: challenge
     description: Leverage an Array to obtain the flag.
