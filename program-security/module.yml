@@ -250,7 +250,7 @@ resources:
       dojo: program-security
       module: memory-errors
       challenge: level-13-0
-  - id: ligering-leftover-hard
+  - id: lingering-leftover-hard
     name: Lingering Leftover (Hard)
     type: challenge
     description: Leak data left behind unintentionally by utilizing clever payload construction.
