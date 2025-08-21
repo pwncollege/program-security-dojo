@@ -330,6 +330,9 @@ resources:
     type: challenge
     description: Leverage an Array to obtain the flag.
 
+  - type: header
+    content: Exploitation
   - type: markdown
-    name: Exploitation
     content: SoonTM
+    expandable: false
+
