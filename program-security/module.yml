@@ -22,7 +22,7 @@ resources:
     slides: 1tH6jbnpX2_T5ZeDzZBfpLZ-ngpIZp3g25PPQaTr52JU
   - name: "Shellcoding Tips and Tricks"
     type: lecture
-    video: 4R5xYA2WEJI
+    video: 7TW0fvz_cQk
     playlist: PL-ymxv0nOtqqhKlspuPMwJn5PO3bUAjD7
   - name: Further Reading
     type: markdown
@@ -157,7 +157,7 @@ resources:
   - name: "Memory Errors: Tips and Tricks"
     type: challenge
     type: lecture
-    video: 7TW0fvz_cQk
+    video: 4R5xYA2WEJI
     playlist: PL-ymxv0nOtqqhKlspuPMwJn5PO3bUAjD7
   - name: Further Reading
     type: markdown
