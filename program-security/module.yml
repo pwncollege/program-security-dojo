@@ -215,6 +215,14 @@ resources:
     name: Pointer Problems (Hard)
     type: challenge
     description: Leverage memory corruption to leak the flag.
+  - id: anomalous-array-easy
+    name: Anamalous Array (Easy)
+    type: challenge
+    description: Leverage an Array to obtain the flag.
+  - id: anomalous-array-hard
+    name: Anamalous Array (Hard)
+    type: challenge
+    description: Leverage an Array to obtain the flag.
   - id: now-you-got-it-easy
     name: Now you got it (Easy)
     type: challenge
@@ -320,15 +328,6 @@ resources:
       dojo: program-security
       module: memory-errors
       challenge: level-15-1
-
-  - id: anomalous-array-easy
-    name: Anamalous Array (Easy)
-    type: challenge
-    description: Leverage an Array to obtain the flag.
-  - id: anomalous-array-hard
-    name: Anamalous Array (Hard)
-    type: challenge
-    description: Leverage an Array to obtain the flag.
 
   - type: header
     content: Exploitation
