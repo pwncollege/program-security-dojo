@@ -215,6 +215,14 @@ resources:
     name: Pointer Problems (Hard)
     type: challenge
     description: Leverage memory corruption to leak the flag.
+  - id: now-you-got-it-easy
+    name: Now you got it (Easy)
+    type: challenge
+    description: Leverage an Array to obtain the flag.
+  - id: now-you-got-it-hard
+    name: Now you got it (Hard)
+    type: challenge
+    description: Leverage an Array to obtain the flag.
 
   - id: loop-lunacy-easy
     name: Loop Lunacy (Easy)
@@ -319,14 +327,6 @@ resources:
     description: Leverage an Array to obtain the flag.
   - id: anomalous-array-hard
     name: Anamalous Array (Hard)
-    type: challenge
-    description: Leverage an Array to obtain the flag.
-  - id: now-you-got-it-easy
-    name: Now you got it (Easy)
-    type: challenge
-    description: Leverage an Array to obtain the flag.
-  - id: now-you-got-it-hard
-    name: Now you got it (Hard)
     type: challenge
     description: Leverage an Array to obtain the flag.
 
