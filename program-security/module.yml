@@ -41,68 +41,36 @@ resources:
     name: ello ackers!
     type: challenge
     description: Write and execute shellcode to read the flag, but your inputted data is filtered before execution.
-    transfer:
-      dojo: program-security
-      module: shellcode-injection
-      challenge: level-4
   - id: syscall-smuggler
     name: Syscall Smuggler
     type: challenge
     description: Write and execute shellcode to read the flag, but the inputted data cannot contain any form of system call
       bytes (syscall, sysenter, int), can you defeat this?
-    transfer:
-      dojo: program-security
-      module: shellcode-injection
-      challenge: level-5
   - id: syscall-shenanigans
     name: Syscall Shenanigans
     type: challenge
     description: Write and execute shellcode to read the flag, but the inputted data cannot contain any form of system call
       bytes (syscall, sysenter, int), this challenge adds an extra layer of difficulty!
-    transfer:
-      dojo: program-security
-      module: shellcode-injection
-      challenge: level-6
   - id: byte-budget
     name: Byte Budget
     type: challenge
     description: Write and execute shellcode to read the flag, but you only get 18 bytes.
-    transfer:
-      dojo: program-security
-      module: shellcode-injection
-      challenge: level-8
   - id: clobbercode
     name: ClobberCode
     type: challenge
     description: Write and execute shellcode to read the flag, but your input has data inserted into it before being executed.
-    transfer:
-      dojo: program-security
-      module: shellcode-injection
-      challenge: level-9
   - id: diverse-delivery
     name: Diverse Delivery
     type: challenge
     description: Write and execute shellcode to read the flag, but every byte in your input must be unique.
-    transfer:
-      dojo: program-security
-      module: shellcode-injection
-      challenge: level-12
   - id: pocket-payload
     name: Pocket Payload
     type: challenge
     description: Write and execute shellcode to read the flag, but this time you only get 12 bytes!
-    transfer:
-      dojo: program-security
-      module: shellcode-injection
-      challenge: level-13
   - id: micro-menace
     name: Micro Menace
     type: challenge
     description: "Write and execute shellcode to read the flag, but this time you only get 6 bytes :)"
-    transfer:
-      dojo: program-security
-      module: shellcode-injection
-      challenge: level-14
 
   - type: header
     content: Memory Corruption Resources
@@ -179,34 +147,18 @@ resources:
     name: Bounds Breaker (Easy)
     type: challenge
     description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass a check designed to prevent you from doing so!
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-4-0
   - id: bounds-breaker-hard
     name: Bounds Breaker (Hard)
     type: challenge
     description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass a check designed to prevent you from doing so!
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-4-1
   - id: casting-catastrophy-easy
     name: Casting Catastrophy (Easy)
     type: challenge
     description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to prevent you from doing so!
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-5-0
   - id: casting-catastrophy-hard
     name: Casting Catastrophy (Hard)
     type: challenge
     description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to prevent you from doing so!
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-5-1
   - id: pointer-problems-easy
     name: Pointer Problems (Easy)
     type: challenge
@@ -236,98 +188,50 @@ resources:
     name: Loop Lunacy (Easy)
     type: challenge
     description: Overflow a buffer and smash the stack to obtain the flag, but this time in a PIE binary with a stack canary. Be warned, this requires careful and clever payload construction!
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-9-0
   - id: loop-lunacy-hard
     name: Loop Lunacy (Hard)
     type: challenge
     description: Overflow a buffer and smash the stack to obtain the flag, but this time in a PIE binary with a stack canary. Be warned, this requires careful and clever payload construction!
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-9-1
   - id: nosy-neighbor-easy
     name: Nosy Neighbor (Easy)
     type: challenge
     description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-10-0
   - id: nosy-neighbor-hard
     name: Nosy Neighbor (Hard)
     type: challenge
     description: Overflow a buffer and leak the flag. Be warned, this requires careful and clever payload construction!
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-10-1
   - id: recursive-ruin-easy
     name: Recursive Ruin (Easy)
     type: challenge
     description: Defeat a stack canary in a PIE binary by utilizing a bug left in the binary.
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-12-0
   - id: recursive-ruin-hard
     name: Recursive Ruin (Hard)
     type: challenge
     description: Defeat a stack canary in a PIE binary by utilizing a bug left in the binary.
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-12-1
   - id: lingering-leftover-easy
     name: Lingering Leftover (Easy)
     type: challenge
     description: Leak data left behind unintentionally by utilizing clever payload construction.
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-13-0
   - id: lingering-leftover-hard
     name: Lingering Leftover (Hard)
     type: challenge
     description: Leak data left behind unintentionally by utilizing clever payload construction.
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-13-1
   - id: latent-leak-easy
     name: Latent Leak (Easy)
     type: challenge
     description: Leak data left behind unintentionally to defeat a stack canary in a PIE binary.
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-14-0
   - id: latent-leak-hard
     name: Latent Leak (Hard)
     type: challenge
     description: Leak data left behind unintentionally to defeat a stack canary in a PIE binary.
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-14-1
   - id: fork-foolery-easy
     name: Fork Foolery (Easy)
     type: challenge
     description: Defeat a stack canary in a PIE binary by utilizing a network-style fork server in the target binary.
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-15-0
   - id: fork-foolery-hard
     name: Fork Foolery (Hard)
     type: challenge
     description: Defeat a stack canary in a PIE binary by utilizing a network-style fork server in the target binary.
-    transfer:
-      dojo: program-security
-      module: memory-errors
-      challenge: level-15-1
 
   - type: header
     content: Exploitation
