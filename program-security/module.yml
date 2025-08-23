@@ -151,12 +151,12 @@ resources:
     name: Bounds Breaker (Hard)
     type: challenge
     description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass a check designed to prevent you from doing so!
-  - id: casting-catastrophy-easy
-    name: Casting Catastrophy (Easy)
+  - id: casting-catastrophe-easy
+    name: Casting Catastrophe (Easy)
     type: challenge
     description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to prevent you from doing so!
-  - id: casting-catastrophy-hard
-    name: Casting Catastrophy (Hard)
+  - id: casting-catastrophe-hard
+    name: Casting Catastrophe (Hard)
     type: challenge
     description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to prevent you from doing so!
   - id: pointer-problems-easy
@@ -168,11 +168,11 @@ resources:
     type: challenge
     description: Leverage memory corruption to leak the flag.
   - id: anomalous-array-easy
-    name: Anamalous Array (Easy)
+    name: Anomalous Array (Easy)
     type: challenge
     description: Leverage an Array to obtain the flag.
   - id: anomalous-array-hard
-    name: Anamalous Array (Hard)
+    name: Anomalous Array (Hard)
     type: challenge
     description: Leverage an Array to obtain the flag.
   - id: now-you-got-it-easy
