@@ -151,27 +151,13 @@ resources:
     name: Bounds Breaker (Hard)
     type: challenge
     description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass a check designed to prevent you from doing so!
-  - id: casting-catastrophe-easy
-    name: Casting Catastrophe (Easy)
-    type: challenge
-    transfer:
-      dojo: program-security
-      module: program-security
-      challenge: casting-catastrophy-easy
   - id: casting-catastrophy-easy
-    name: Casting Catastrophy (Easy)
+    name: Casting Catastrophe (Easy)
     type: challenge
     description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to prevent you from doing so!
   - id: casting-catastrophy-hard
-    name: Casting Catastrophy (Hard)
-    type: challenge
-  - id: casting-catastrophe-hard
     name: Casting Catastrophe (Hard)
     type: challenge
-    transfer:
-      dojo: program-security
-      module: program-security
-      challenge: casting-catastrophy-hard
     description: Overflow a buffer and smash the stack to obtain the flag, but this time bypass another check designed to prevent you from doing so!
   - id: pointer-problems-easy
     name: Pointer Problems (Easy)
