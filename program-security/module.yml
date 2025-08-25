@@ -23,6 +23,7 @@ resources:
   - name: "Shellcoding Tips and Tricks"
     type: lecture
     video: 7TW0fvz_cQk
+    slides: 1SeiaUNAnFGpM_TQH3gXYE1h-S0c-kNUEx7siYD1j3DE
     playlist: PL-ymxv0nOtqqhKlspuPMwJn5PO3bUAjD7
   - name: Further Reading
     type: markdown
@@ -75,57 +76,54 @@ resources:
   - type: header
     content: Memory Corruption Resources
   - name: "Memory Errors: Introduction"
-    type: challenge
     type: lecture
     video: z_XOhfsVKnU
     playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
     slides: 10cq3gCAvYjh_fzqiLLc1hCyqchux7x8pcskk6xGdVL8
   - name: "Memory Errors: High-level Problems"
-    type: challenge
     type: lecture
     video: 4PJvcZZIyT8
     playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
     slides: 1umxk_Gq_yGeCcBEz9toQ6Wil8G1bmK3NdrkFITadPhs
   - name: "Memory Errors: Smashing the Stack"
-    type: challenge
     type: lecture
     video: PVx1hUlMxtQ
     playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
     slides: 1_Zs7s7O_VqXd8prv0GIjUT993qL3KgjVby8qC0Ixs_w
   - name: "Memory Errors: Causes of Corruption 1"
-    type: challenge
     type: lecture
     video: u80_j06HkpM
     playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
     slides: 1N5ybP1-SyU-PbQKMBRfFdNntbLPCOkROOybf_ZYBBBI
   - name: "Memory Errors: Causes of Corruption 2"
-    type: challenge
     type: lecture
     video: fVa2xahshik
     playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
     slides: 1N5ybP1-SyU-PbQKMBRfFdNntbLPCOkROOybf_ZYBBBI
   - name: "Memory Errors: Stack Canaries"
-    type: challenge
     type: lecture
     video: 55zWlEFflgE
     playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
     slides: 19bO811-RSjez-E8zGMJYvUwFi5jW-vRTv19z1g8ZT3I
   - name: "Memory Errors: ASLR"
-    type: challenge
     type: lecture
     video: SBqERAbDdAk
     playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
     slides: 1EOUvQsDsk5eg1Ysq9Us-CnLgCOP5IRIR8P6FThBVeGo
   - name: "Memory Errors: Causes of Disclosure"
-    type: challenge
     type: lecture
     video: S9IIGVK6K0I
     playlist: PL-ymxv0nOtqpmHdeii3NsBurJSvuMTKLL
     slides: 1Qonbh98U_s3aN9Ut0dgdHFnm_ymb9e2yUqT6bkY4FbU
   - name: "Memory Errors: Tips and Tricks"
-    type: challenge
     type: lecture
+    slides: 1KwpTHPKFYu7S0dlepvsumehcbW0oQ0b3XTIpTQH0yOo
     video: 4R5xYA2WEJI
+    playlist: PL-ymxv0nOtqqhKlspuPMwJn5PO3bUAjD7
+  - name: "Memory Errors: The Global Offset Table"
+    type: lecture
+    video: 0Tn290EUZxY
+    slides: 19NoP5DlRzzi1l1j7YiLfF-FU-kdQ8Rz9DjgbZ97VauY
     playlist: PL-ymxv0nOtqqhKlspuPMwJn5PO3bUAjD7
   - name: Further Reading
     type: markdown
