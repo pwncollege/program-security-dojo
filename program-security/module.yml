@@ -235,6 +235,53 @@ resources:
     content: Exploitation
   - type: markdown
     name: Exploitation
-    content: "SoonTM"
+    content: |
+      Exploitation begins at the intersection of two core ideas: corrupting program memory and gaining control-flow. Memory corruption provides the foothold, allowing control over a program’s execution by overwriting critical data such as return addresses or other valuable pointers. Shellcode provides the payload, a carefully crafted sequence of instructions designed to carry out specific actions once execution is redirected. When combined, these concepts illustrate the foundation of software exploitation: not just crashing a program, but deliberately shaping its behavior to execute attacker-controlled code.
     expandable: false
 
+  - id: canary-conundrum-easy
+    name: Canary Conundrum (Easy)
+    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing it by utilizing clever payload construction.
+    transfer:
+      dojo: program-security
+      module: program-exploitation
+      challenge: level-3-0
+
+  - id: canary-conundrum-hard
+    name: Canary Conundrum (Hard)
+    description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing it by utilizing clever payload construction.
+    transfer:
+      dojo: program-security
+      module: program-exploitation
+      challenge: level-3-1
+
+  - id: crafy-clobber-easy
+    name: A Crafty Clobber (Easy)
+    description: Write a full exploit involving injecting shellcode, and a method of tricking the challenge into executing your payload.
+    transfer:
+      dojo: program-security
+      module: program-exploitation
+      challenge: level-4-0
+
+  - id: crafty-clobber-hard
+    name: A Crafty Clobber (Hard)
+    description: Write a full exploit involving injecting shellcode, and a method of tricking the challenge into executing your payload.
+    transfer:
+      dojo: program-security
+      module: program-exploitation
+      challenge: level-4-1
+
+  - id: can-it-fizz
+    name: Can It Fizz?
+    type: challenge
+    description: Exploit the binary to obtain the flag!
+
+  - id: does-it-buzz
+    name: Does It Buzz?
+    type: challenge
+    description: Exploit the binary to obtain the flag!
+
+  - id: make-it-fizzbuzz
+    name: Make It FizzBuzz
+    type: challenge
+    description: Exploit the binary to obtain the flag!

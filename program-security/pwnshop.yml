@@ -1,0 +1,53 @@
+seed: 1337
+variants: 16
+keep_source: false
+walkthrough: false
+
+challenges:
+- id: login-leakage-easy
+  challenge: BabyMemSimplePass
+  binary_name: login-leakage-easy
+  walkthrough: true
+- id: login-leakage-hard
+  challenge: BabyMemSimplePass
+  binary_name: login-leakage-hard
+
+- id: anomalous-array-easy
+  challenge: BabyMemNegativeArrayIndex
+  binary_name: anomalous-array-easy
+  walkthrough: true
+- id: anomalous-array-hard
+  challenge: BabyMemNegativeArrayIndex
+  binary_name: anomalous-array-hard
+
+- id: now-you-got-it-easy
+  challenge: BabyMemArrayToGot
+  walkthrough: true
+  binary_name: now-you-got-it-easy
+- id: now-you-got-it-hard
+  challenge: BabyMemArrayToGot
+  binary_name: now-you-got-it-hard
+
+- id: pointer-problems-easy
+  challenge: BabyMemStringCorruption
+  walkthrough: true
+  binary_name: pointer-problems-easy
+
+- id: pointer-problems-hard
+  challenge: BabyMemStringCorruption
+  binary_name: pointer-problems-hard
+
+ # Toddler1 chals not generated from this file
+
+- id: can-it-fizz
+  challenge: BabyFizzRetSC
+  binary_name: can-it-fizz
+
+- id: does-it-buzz
+  challenge: BabyFizzGOT
+  binary_name: does-it-buzz
+
+- id: make-it-fizzbuzz
+  challenge: BabyFizzProt
+  binary_name: make-it-fizbuzz
+  variants: 1
