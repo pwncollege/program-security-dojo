@@ -257,7 +257,7 @@ resources:
       module: program-exploitation
       challenge: level-3-1
 
-  - id: crafy-clobber-easy
+  - id: crafty-clobber-easy
     name: A Crafty Clobber (Easy)
     description: Write a full exploit involving injecting shellcode, and a method of tricking the challenge into executing your payload.
     type: challenge
