@@ -243,37 +243,21 @@ resources:
     name: Canary Conundrum (Easy)
     description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing it by utilizing clever payload construction.
     type: challenge
-    transfer:
-      dojo: program-security
-      module: program-exploitation
-      challenge: level-3-0
 
   - id: canary-conundrum-hard
     name: Canary Conundrum (Hard)
     description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing it by utilizing clever payload construction.
     type: challenge
-    transfer:
-      dojo: program-security
-      module: program-exploitation
-      challenge: level-3-1
 
   - id: crafty-clobber-easy
     name: A Crafty Clobber (Easy)
     description: Write a full exploit involving injecting shellcode, and a method of tricking the challenge into executing your payload.
     type: challenge
-    transfer:
-      dojo: program-security
-      module: program-exploitation
-      challenge: level-4-0
 
   - id: crafty-clobber-hard
     name: A Crafty Clobber (Hard)
     description: Write a full exploit involving injecting shellcode, and a method of tricking the challenge into executing your payload.
     type: challenge
-    transfer:
-      dojo: program-security
-      module: program-exploitation
-      challenge: level-4-1
 
   - id: can-it-fizz
     name: Can It Fizz?
