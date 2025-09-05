@@ -180,4 +180,11 @@ challenges:
   challenge: BabyRevYan85BlindEmulatorUserInput
   walkthrough: false
   seed: 313372200
-
+- id: substitution-sorcery
+  challenge: BabyRevSbox
+  walkthrough: false
+  seed: 13370100
+- id: bit-bender
+  challenge: BabyRevRot
+  walkthrough: false
+  seed: 13370100
