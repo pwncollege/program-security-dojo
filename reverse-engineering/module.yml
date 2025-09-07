@@ -102,36 +102,6 @@ resources:
     description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
       before being compared to the correct key.
     type: challenge
-  - id: level-3-0 # No
-    name: Twisted Text (Easy)
-    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
-      before being compared to the correct key.
-    type: challenge
-  - id: level-3-1 # No
-    name: Twisted Text (Hard)
-    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
-      before being compared to the correct key.
-    type: challenge
-  - id: level-4-0 # No
-    name: Tidy Task (Easy)
-    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
-      before being compared to the correct key.
-    type: challenge
-  - id: level-4-1 # No 
-    name: Tidy Task (Hard)
-    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
-      before being compared to the correct key.
-    type: challenge
-  - id: level-5-0 # No
-    name: Logical License (Easy)
-    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
-      before being compared to the correct key.
-    type: challenge
-  - id: level-5-1 # No
-    name: Logical License (Hard)
-    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
-      before being compared to the correct key.
-    type: challenge
   - id: bit-bender
     name: Bit Bender
     description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
@@ -151,15 +121,6 @@ resources:
     name: Meager Mangler (Hard)
     description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
       before being compared to the correct key.
-    type: challenge
-  - id: level-7-0 # No
-    name: Modest Mangler (Easy)
-    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow
-      before being compared to the correct key.
-    type: challenge
-  - id: level-7-1 # No
-    name: Modest Mangler (Hard)
-    description: Reverse engineer this challenge to find the correct license key, but your input will be modified somehow before being compared to the correct key.
     type: challenge
   - id: level-8-0
     name: Monstrous Mangler (Easy)
@@ -209,47 +170,6 @@ resources:
     content: |
       Yan85 is a virtual machine and obfuscation engine.  It is designed to be a simple, yet powerful, virtual machine that can be used to obfuscate code.  The following set of challenges leverage the Yan85 virtual machine.  Early time spent understanding how this virtual machine works will pay off in future challenges that use Yan85.
     expandable: false
-  - id: level-12-0 # No
-    name: This is Yancode (Easy)
-    description: |-
-      We're about to dive into reverse engineering obfuscated code!
-      To better prepare you for the journey ahead, this challenge is a very straightforward crackme, but using slightly different code, memory layout, and input format.
-      We will progressively obfuscate this in future levels, but this level should be a freebie!
-    type: challenge
-  - id: level-12-1 # No
-    name: This is Yancode (Hard)
-    description: |-
-      We're about to dive into reverse engineering obfuscated code!
-      To better prepare you for the journey ahead, this challenge is a very straightforward crackme, but using slightly different code, memory layout, and input format.
-      We will progressively obfuscate this in future levels, but this level should be a freebie!
-    type: challenge
-  - id: level-13-0 # No
-    name: Powered by Yancode (Easy)
-    description: |-
-      Let's dive into reverse engineering obfuscated code!
-      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
-      If you are clever, you won't need to reverse _too_ much VM code.
-    type: challenge
-  - id: level-13-1 # No
-    name: Powered by Yancode (Hard)
-    description: |-
-      Let's dive into reverse engineering obfuscated code!
-      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
-      If you are clever, you won't need to reverse _too_ much VM code.
-    type: challenge
-  - id: level-14-0 # No
-    name: Yancode Inside (Easy)
-    description: |-
-      Let's dive into reverse engineering obfuscated code!
-      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
-      If you are clever, you won't need to reverse _too_ much VM code.
-    type: challenge
-  - id: level-14-1 # No
-    name: Yancode Inside (Hard)
-    description: |-
-      Let's dive into reverse engineering obfuscated code!
-      This challenge is using VM-based obfuscation: reverse engineer the custom emulator and architecture to understand how to get the flag!
-      If you are clever, you won't need to reverse _too_ much VM code.
     type: challenge
   - id: level-15-0
     name: Trust the Yancode (Easy)
