@@ -170,7 +170,6 @@ resources:
     content: |
       Yan85 is a virtual machine and obfuscation engine.  It is designed to be a simple, yet powerful, virtual machine that can be used to obfuscate code.  The following set of challenges leverage the Yan85 virtual machine.  Early time spent understanding how this virtual machine works will pay off in future challenges that use Yan85.
     expandable: false
-    type: challenge
   - id: level-15-0
     name: Trust the Yancode (Easy)
     description: |-
