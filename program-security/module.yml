@@ -139,7 +139,7 @@ resources:
   - type: markdown
     name: Memory Corruption Class Streams
     content: |
-      Follow along with a live class with the same demo the instructor used.
+      Follow along with a live class with the same demo as the instructor!
     expandable: false
   - name: "Cooking with Canaries Livestream"
     type: lecture
@@ -255,22 +255,15 @@ resources:
 
 
   - type: header
-    content: Complex Corruption
+    content: Complex Corruption Class Streams
   - type: markdown
-    name: Complex Corruption
+    name: Complex Corruption Class Streams
     content: |
-      Exploitation begins at the intersection of two core ideas: corrupting program memory and gaining control-flow. Memory corruption provides the foothold, allowing control over a program’s execution by overwriting critical data such as return addresses or other valuable pointers. Shellcode provides the payload, a carefully crafted sequence of instructions designed to carry out specific actions once execution is redirected. When combined, these concepts illustrate the foundation of software exploitation: not just crashing a program, but deliberately shaping its behavior to execute attacker-controlled code.
-    expandable: false
-
-
+      Follow along with a live class with the same demo as the instructor!
   - name: "Complex Corruption Class Stream"
     type: lecture
     video: e8_-Ix1O6Wk
     playlist: PL-ymxv0nOtqqly6KvcTQYgkNYBjBOYMJR
-  - type: markdown
-    name: Memory Corruption Class Streams
-    content: |
-      Follow along with a live class with the same demo the instructor used.
   - name: "Complex Corruption Demo"
     type: challenge
     required: false
@@ -280,6 +273,13 @@ resources:
       challenge: complex-corruption-demo
 
 
+  - type: header
+    content: Complex Corruption
+  - type: markdown
+    name: Complex Corruption
+    content: |
+      Exploitation begins at the intersection of two core ideas: corrupting program memory and gaining control-flow. Memory corruption provides the foothold, allowing control over a program’s execution by overwriting critical data such as return addresses or other valuable pointers. Shellcode provides the payload, a carefully crafted sequence of instructions designed to carry out specific actions once execution is redirected. When combined, these concepts illustrate the foundation of software exploitation: not just crashing a program, but deliberately shaping its behavior to execute attacker-controlled code.
+    expandable: false
   - id: canary-conundrum-easy
     name: Canary Conundrum (Easy)
     description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing it by utilizing clever payload construction.
