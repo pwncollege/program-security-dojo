@@ -260,6 +260,7 @@ resources:
     name: Complex Corruption Class Streams
     content: |
       Follow along with a live class with the same demo as the instructor!
+    expandable: false
   - name: "Complex Corruption Class Stream"
     type: lecture
     video: e8_-Ix1O6Wk
