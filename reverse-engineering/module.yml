@@ -82,7 +82,8 @@ resources:
   - type: markdown
     name: Reverse Engineering Class Streams
     content: |
-      Follow along with a live class with the same demo the instructor used.
+      Follow along with a live class with the same demo as the instructor!
+    expandable: false
   - type: lecture
     name: "Reversing with Rob Class Stream"
     video: KiPeQyv9JYY
