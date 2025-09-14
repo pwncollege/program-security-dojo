@@ -2,6 +2,7 @@ name: Program Security
 description: |
     In the realm of cybersecurity, your journey mirrors that of a martial artist mastering the art of defense and attack. The “Program Security” module is where you will train in the ancient techniques of shellcoding and memory corruption. Like a skilled martial artist wielding precise strikes, you will learn to craft shellcode that slips past defenses with the agility of a shadow. You will also study memory corruption vulnerabilities, discovering how to exploit pinpoint weaknesses with the precision of a pressure point strike.
 
+
 resources:
   - type: header
     content: Shellcoding Resources
@@ -35,6 +36,7 @@ resources:
       - [x86_64 assembly listing](http://ref.x86asm.net/coder64.html)
       - [Syscall Table](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)
       - [Another syscall table, with multiple architectures!](https://syscall.sh/)
+
 
   - type: header
     content: Shellcoding challenges
@@ -72,6 +74,7 @@ resources:
     name: Micro Menace
     type: challenge
     description: "Write and execute shellcode to read the flag, but this time you only get 6 bytes :)"
+
 
   - type: header
     content: Memory Corruption Resources
@@ -130,6 +133,27 @@ resources:
     content: |
       * OpenSecurityTraining2 has courses covering security vulnerabilities: [Vulnerabilities 1001](https://ost2.fyi/Vulns1001) and [Vulnerabilities 1002](https://ost2.fyi/Vulns1002).
 
+
+  - type: header
+    content: Memory Corruption Class Streams
+  - type: markdown
+    name: Memory Corruption Class Streams
+    content: |
+      Follow along with a live class with the same demo the instructor used.
+    expandable: false
+  - name: "Cooking with Canaries Livestream"
+    type: lecture
+    video: AvDKZI92hDQ
+    playlist: PL-ymxv0nOtqqly6KvcTQYgkNYBjBOYMJR
+  - name: "Cooking with Canaries Demo"
+    type: challenge
+    required: false
+    import:
+      dojo: demo-dojo
+      module: cse466-demos
+      challenge: demo-cooking-with-canaries
+
+
   - type: header
     content: Memory Corruption Challenges
   - id: login-leakage-easy
@@ -140,7 +164,6 @@ resources:
     name: Login Leakage (Hard)
     type: challenge
     description: Leverage memory corruption to satisfy a simple constraint
-
   - id: bounds-breaker-easy
     name: Bounds Breaker (Easy)
     type: challenge
@@ -181,7 +204,6 @@ resources:
     name: Now you got it (Hard)
     type: challenge
     description: Leverage an Array to obtain the flag.
-
   - id: loop-lunacy-easy
     name: Loop Lunacy (Easy)
     type: challenge
@@ -231,44 +253,57 @@ resources:
     type: challenge
     description: Defeat a stack canary in a PIE binary by utilizing a network-style fork server in the target binary.
 
+
   - type: header
-    content: Exploitation
+    content: Complex Corruption
   - type: markdown
-    name: Exploitation
+    name: Complex Corruption
     content: |
       Exploitation begins at the intersection of two core ideas: corrupting program memory and gaining control-flow. Memory corruption provides the foothold, allowing control over a program’s execution by overwriting critical data such as return addresses or other valuable pointers. Shellcode provides the payload, a carefully crafted sequence of instructions designed to carry out specific actions once execution is redirected. When combined, these concepts illustrate the foundation of software exploitation: not just crashing a program, but deliberately shaping its behavior to execute attacker-controlled code.
     expandable: false
+
+
+  - name: "Complex Corruption Class Stream"
+    type: lecture
+    video: e8_-Ix1O6Wk
+    playlist: PL-ymxv0nOtqqly6KvcTQYgkNYBjBOYMJR
+  - type: markdown
+    name: Memory Corruption Class Streams
+    content: |
+      Follow along with a live class with the same demo the instructor used.
+  - name: "Complex Corruption Demo"
+    type: challenge
+    required: false
+    import:
+      dojo: demo-dojo
+      module: cse466-demos
+      challenge: complex-corruption-demo
+
 
   - id: canary-conundrum-easy
     name: Canary Conundrum (Easy)
     description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing it by utilizing clever payload construction.
     type: challenge
-
   - id: canary-conundrum-hard
     name: Canary Conundrum (Hard)
     description: Write a full exploit involving injecting shellcode and a method of tricking the challenge into executing it by utilizing clever payload construction.
     type: challenge
-
   - id: crafty-clobber-easy
     name: A Crafty Clobber (Easy)
     description: Write a full exploit involving injecting shellcode, and a method of tricking the challenge into executing your payload.
     type: challenge
-
   - id: crafty-clobber-hard
     name: A Crafty Clobber (Hard)
     description: Write a full exploit involving injecting shellcode, and a method of tricking the challenge into executing your payload.
     type: challenge
-
   - id: can-it-fizz
     name: Can It Fizz?
     type: challenge
     description: Exploit the binary to obtain the flag!
-
   - id: does-it-buzz
     name: Does It Buzz?
     type: challenge
     description: Exploit the binary to obtain the flag!
-
   - id: make-it-fizzbuzz
     name: Make It FizzBuzz
     type: challenge
