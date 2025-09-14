@@ -78,6 +78,32 @@ resources:
 
 
   - type: header
+    content: Reverse Engineering Class Streams
+  - type: markdown
+    name: Reverse Engineering Class Streams
+    content: |
+      Follow along with a live class with the same demo the instructor used.
+  - type: lecture
+    name: "Reversing with Rob Class Stream"
+    video: KiPeQyv9JYY
+    playlist: PL-ymxv0nOtqqly6KvcTQYgkNYBjBOYMJR
+  - type: challenge
+    name: "Patriot CTF 2022 - String Cheese"
+    required: false
+    import:
+      dojo: ctf-archive
+      module: patriotctf2022
+      challenge: stringcheese
+  - type: challenge
+    name: "Patriot CTF 2022 - Crackme"
+    required: false
+    import:
+      dojo: ctf-archive
+      module: patriotctf2022
+      challenge: crackme
+
+
+  - type: header
     content: Crackmes
   - type: markdown
     name: Crackmes
