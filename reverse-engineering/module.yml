@@ -88,22 +88,10 @@ resources:
     name: "Reversing with Rob Class Stream"
     video: KiPeQyv9JYY
     playlist: PL-ymxv0nOtqqly6KvcTQYgkNYBjBOYMJR
-  - type: challenge
+  - type: markdown
     name: "Patriot CTF 2022 - String Cheese"
-    required: false
-    import:
-      dojo: ctf-archive
-      module: patriotctf2022
-      challenge: stringcheese
-  - type: challenge
-    name: "Patriot CTF 2022 - Crackme"
-    required: false
-    import:
-      dojo: ctf-archive
-      module: patriotctf2022
-      challenge: crackme
-
-
+    content: |
+      [CTF Achive - Patriot CTF](/ctf-archive/patriotctf2022)
   - type: header
     content: Crackmes
   - type: markdown
