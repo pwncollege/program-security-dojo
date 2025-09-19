@@ -1,0 +1,4 @@
+#!/bin/bash
+
+chown -R hacker:hacker /challenge
+chmod -x /challenge/*.c

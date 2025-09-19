@@ -148,11 +148,7 @@ resources:
   - name: "Cooking with Canaries Demo"
     type: challenge
     required: false
-    import:
-      dojo: demo-dojo
-      module: cse466-demos
-      challenge: demo-cooking-with-canaries
-
+    id: demo-cooking-with-canaries
 
   - type: header
     content: Memory Corruption Challenges
@@ -268,10 +264,7 @@ resources:
   - name: "Complex Corruption Demo"
     type: challenge
     required: false
-    import:
-      dojo: demo-dojo
-      module: cse466-demos
-      challenge: complex-corruption-demo
+    id: demo-complex-corruption
 
 
   - type: header

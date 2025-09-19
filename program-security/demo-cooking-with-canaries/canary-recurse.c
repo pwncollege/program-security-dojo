@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+void challenge_func(int val) {
+	if (val <= 0) {
+		return;
+	}
+
+	char buf[256];
+
+	puts("Inside of challenge_func!");
+	read(0, buf, 0x1000);
+	printf("You said: %s\n", buf);
+
+	// This is a recursive call
+	challenge_func(val - 1);
+
+	puts("About to return from challenge_func!");
+}
+
+void win() {
+	char flag_buf[64];
+	int fd = open("/flag", O_RDONLY);
+	int bytes_read = read(fd, flag_buf, 64);
+	printf("Here is your flag: %s\n", flag_buf);
+}
+
+void main() {
+	puts("About to call challenge_func!");
+	challenge_func(2);
+}
