@@ -12,94 +12,94 @@ description: |
   With ROP, you step into a realm where every byte is a beat, and every return is a rhythm, embarking on an exhilarating journey of exploitation and discovery.
 challenges:
 - id: level-1-0
-  name: level1.0
+  name: Loose Link (Easy)
   description: Overwrite a return address to trigger a win function!
 - id: level-1-1
-  name: level1.1
+  name: Loose Link (Hard)
   description: Overwrite a return address to trigger a win function!
 - id: level-2-0
-  name: level2.0
+  name: Call Chain (Easy)
   description: Use ROP to trigger a two-stage win function!
 - id: level-2-1
-  name: level2.1
+  name: Call Chain (Hard)
   description: Use ROP to trigger a two-stage win function!
 - id: level-3-0
-  name: level3.0
+  name: Chain of Command (Easy)
   description: Use ROP to trigger a multi-stage win function!
 - id: level-3-1
-  name: level3.1
+  name: Chain of Command (Hard)
   description: Use ROP to trigger a multi-stage win function!
 - id: level-4-0
-  name: level4.0
+  name: Stop, Pop, and ROP (Easy)
   description: Leverage a stack leak while crafting a ROP chain to obtain the flag!
 - id: level-4-1
-  name: level4.1
+  name: Stop, Pop, and ROP (Hard)
   description: Leverage a stack leak while crafting a ROP chain to obtain the flag!
 - id: level-5-0
-  name: level5.0
+  name: Stop, Pop and ROP II (Easy)
   description: Craft a ROP chain to obtain the flag, now with no stack leak!
 - id: level-5-1
-  name: level5.1
+  name: Stop, Pop, and ROP II (Hard)
   description: Craft a ROP chain to obtain the flag, now with no stack leak!
 - id: level-6-0
-  name: level6.0
+  name: Indirect Invocation (Easy)
   description: Craft a ROP chain to obtain the flag, now with no syscall gadget!
 - id: level-6-1
-  name: level6.1
+  name: Indirect Invocation (Hard)
   description: Craft a ROP chain to obtain the flag, now with no syscall gadget!
 - id: level-7-0
-  name: level7.0
+  name: Leaky Libc (Easy)
   description: Utilize a libc leak to ROP with libc!
 - id: level-7-1
-  name: level7.1
+  name: Leaky Libc (Hard)
   description: Utilize a libc leak to ROP with libc!
 - id: level-8-0
-  name: level8.0
+  name: Putsception (Easy)
   description: ROP with libc, no free leak this time!
 - id: level-8-1
-  name: level8.1
+  name: Putsception (Hard)
   description: ROP with libc, no free leak this time!
 - id: level-9-0
-  name: level9.0
+  name: Pivotal Prelude (Easy)
   description: Perform a stack pivot to gain control flow!
 - id: level-9-1
-  name: level9.1
+  name: Pivotal Prelude (Hard)
   description: Perform a stack pivot to gain control flow!
 - id: level-10-0
-  name: level10.0
+  name: Pivotal Pointer (Easy)
   description: Perform a partial overwrite to call the win function.
 - id: level-10-1
-  name: level10.1
+  name: Pivotal Pointer (Hard)
   description: Perform a partial overwrite to call the win function.
 - id: level-11-0
-  name: level11.0
+  name: Pivotal Payload (Easy)
   description: Apply stack pivoting to call the win function.
 - id: level-11-1
-  name: level11.1
+  name: Pivotal Payload (Hard)
   description: Apply stack pivoting to call the win function.
 - id: level-12-0
-  name: level12.0
+  name: Pivotal Pursuit (Easy)
   description: Creatively apply stack pivoting to call the win function.
 - id: level-12-1
-  name: level12.1
+  name: Pivotal Pursuit (Hard)
   description: Creatively apply stack pivoting to call the win function.
 - id: level-13-0
-  name: level13.0
+  name: Guarded Gadgets (Easy)
   description: Perform ROP when the function has a canary!
 - id: level-13-1
-  name: level13.1
+  name: Guarded Gadgets (Hard)
   description: Perform ROP when the function has a canary!
 - id: level-14-0
-  name: level14.0
+  name: ROP Roulette (Easy)
   description: Perform ROP against a network forkserver!
 - id: level-14-1
-  name: level14.1
+  name: ROP Roulette (Hard)
   description: Perform ROP against a network forkserver!
 - id: level-15-0
-  name: level15.0
+  name: Libc Lottery (Easy)
   description: Perform ROP when the stack frame returns to libc!
 - id: level-15-1
-  name: level15.1
+  name: Libc Lottery (Hard)
   description: Perform ROP when the stack frame returns to libc!
 resources:
 - name: "Return Oriented Programming: Introduction"
