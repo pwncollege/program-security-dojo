@@ -110,6 +110,19 @@ resources:
 
   - type: header
     content: Stack Pivoting
+  - type: header
+    content: Stack Pivoting Class Streams
+  - type: markdown
+    name: Stack Pivoting Class Streams
+    content: |
+      Follow along with a live class with the same demo as the instructor!
+  - id: demo-take-it-or-leave-it
+    name: Take it or Leave it Demo
+    type: challenge
+    required: false
+
+  - type: header
+    content: Stack Pivoting Challenges
   - id: level-9-0
     name: Pivotal Prelude (Easy)
     description: Perform a stack pivot to gain control flow!
