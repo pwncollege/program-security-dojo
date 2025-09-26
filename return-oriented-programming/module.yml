@@ -109,8 +109,6 @@ resources:
     type: challenge
 
   - type: header
-    content: Stack Pivoting
-  - type: header
     content: Stack Pivoting Class Streams
   - type: markdown
     name: Stack Pivoting Class Streams
