@@ -116,6 +116,11 @@ resources:
     name: Stack Pivoting Class Streams
     content: |
       Follow along with a live class with the same demo as the instructor!
+    expandable: false
+  - name: "Take it or Leave it - Livestream"
+    type: lecture
+    video: FfBLEJYtBxQ
+    playlist: PL-ymxv0nOtqqly6KvcTQYgkNYBjBOYMJR
   - id: demo-take-it-or-leave-it
     name: Take it or Leave it Demo
     type: challenge
