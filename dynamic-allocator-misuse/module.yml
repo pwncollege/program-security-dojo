@@ -27,21 +27,27 @@ resources:
   content: Use After Free
 - id: level-1-0
   name: Freebie (Easy)
+  type: challenge
   description: "Exploit a use-after-free vulnerability to get the flag."
 - id: level-1-1
   name: Freebie (Hard)
+  type: challenge
   description: "Exploit a use-after-free vulnerability to get the flag."
 - id: level-2-0
   name: Freebin Feint (Easy)
+  type: challenge
   description: "Create and exploit a use-after-free vulnerability to get the flag."
 - id: level-2-1
   name: Freebin Feint (Hard)
+  type: challenge
   description: "Create and exploit a use-after-free vulnerability to get the flag."
 - id: level-3-0
   name: Free Flag Fumble (Easy)
+  type: challenge
   description: "Create and exploit a use-after-free vulnerability to get the flag when multiple allocations occur."
 - id: level-3-1
   name: Free Flag Fumble (Hard)
+  type: challenge
   description: "Create and exploit a use-after-free vulnerability to get the flag when multiple allocations occur."
 
 
@@ -62,39 +68,51 @@ resources:
   content: Metadata Mischief
 - id: level-4-0
   name: Fickle Free (Easy)
+  type: challenge
   description: "Corrupt the TCACHE entry_struct value to get the flag when multiple allocations occur."
 - id: level-4-1
   name: Fickle Free (Hard)
+  type: challenge
   description: "Corrupt the TCACHE entry_struct value to get the flag when multiple allocations occur."
 - id: level-5-0
   name: Malloc Mirage (Easy) 
+  type: challenge
   description: "Apply the TCACHE metadata in an unintended manner to set a value."
 - id: level-5-1
   name: Malloc Mirage (Hard)
+  type: challenge
   description: "Apply the TCACHE metadata in an unintended manner to set a value."
 - id: level-6-0
   name: Seeking Secrets (Easy)
+  type: challenge
   description: "Corrupt the TCACHE entry_struct to read unintended memory."
 - id: level-6-1
   name: Seeking Secrets (Hard)
+  type: challenge
   description: "Corrupt the TCACHE entry_struct to read unintended memory."
 - id: level-7-0
   name: Seeking Substantial Secrets (Easy)
+  type: challenge
   description: "Corrupt the TCACHE entry_struct to read unintended memory."
 - id: level-7-1
   name: Seeking Substantial Secrets (Hard)
+  type: challenge
   description: "Corrupt the TCACHE entry_struct to read unintended memory."
 - id: level-8-0
   name: Seeking Spanless Secrets (Easy)
+  type: challenge
   description: "Leverage TCACHE exploits to pass a validation check."
 - id: level-8-1
   name: Seeking Spanless Secrets (Hard)
+  type: challenge
   description: "Leverage TCACHE exploits to pass a validation check."
 - id: level-9-0
   name: Seeking Smuggled Secrets (Easy)
+  type: challenge
   description: "Leverage TCACHE exploits to pass a validation check."
 - id: level-9-1
   name: Seeking Smuggled Secrets (Hard)
+  type: challenge
   description: "Leverage TCACHE exploits to pass a validation check."
 
 
@@ -102,39 +120,51 @@ resources:
   content: Heap Hijinx
 - id: level-10-0
   name: Sus Sequence (Easy)
+  type: challenge
   description: "Leverage TCACHE exploits to gain control flow."
 - id: level-10-1
   name: Sus Sequence (Hard)
+  type: challenge
   description: "Leverage TCACHE exploits to gain control flow."
 - id: level-11-0
   name: Echo Emanations (Easy)
+  type: challenge
   description: "Leverage TCACHE exploits to gain control flow."
 - id: level-11-1
   name: Echo Emanations (Hard)
+  type: challenge
   description: "Leverage TCACHE exploits to gain control flow."
 - id: level-12-0
   name: Stack Spoofing (Easy)
+  type: challenge
   description: "Leverage TCACHE exploits to cause malloc() to return a stack pointer."
 - id: level-12-1
   name: Stack Spoofing (Hard)
+  type: challenge
   description: "Leverage TCACHE exploits to cause malloc() to return a stack pointer."
 - id: level-13-0
   name: Stack Summoning (Easy)
+  type: challenge
   description: "Leverage calling free() on a stack pointer to read secret data."
 - id: level-13-1
   name: Stack Summoning (Hard)
+  type: challenge
   description: "Leverage calling free() on a stack pointer to read secret data."
 - id: level-14-0
   name: Enterprising Echo (Easy)
+  type: challenge
   description: "Leverage TCACHE exploits to obtain the flag."
 - id: level-14-1
   name: Enterprising Echo (Hard)
+  type: challenge
   description: "Leverage TCACHE exploits to obtain the flag."
 - id: level-15-0
   name: Ephemeral Echo (Easy)
+  type: challenge
   description: "Leverage TCACHE exploits to obtain the flag."
 - id: level-15-1
   name: Ephemeral Echo (Hard)
+  type: challenge
   description: "Leverage TCACHE exploits to obtain the flag."
 
 
@@ -150,34 +180,44 @@ resources:
   content: Subverting Safe-Linking Challenges
 - id: level-16-0
   name: Seeking Safe Secrets (Easy)
+  type: challenge
   description: "Revisit a prior challenge, now with TCACHE safe-linking."
 - id: level-16-1
   name: Seeking Safe Secrets (Hard)
+  type: challenge
   description: "Revisit a prior challenge, now with TCACHE safe-linking."
 - id: level-17-0
   name: Sus Sequence Safety (Easy)
+  type: challenge
   description: "Revisit a prior challenge, now with TCACHE safe-linking."
 - id: level-17-1
   name: Sus Sequence Safety (Hard)
+  type: challenge
   description: "Revisit a prior challenge, now with TCACHE safe-linking."
 - id: level-18-0
   name: Safely Stack Summoning (Easy)
+  type: challenge
   description: "Revisit a prior challenge, now with TCACHE safe-linking."
 - id: level-18-1
   name: Safely Stack Summoning (Hard)
+  type: challenge
   description: "Revisit a prior challenge, now with TCACHE safe-linking."
 
 - type: header
   content: Exploitation
 - id: level-19-0
   name: Overlapping Odyssey (Easy)
+  type: challenge
   description: "Leverage overlapping allocations to obtain the flag."
 - id: level-19-1
   name: Overlapping Odyssey (Hard)
+  type: challenge
   description: "Leverage overlapping allocations to obtain the flag."
 - id: level-20-0
   name: Tcache Terror (Easy)
+  type: challenge
   description: "16 bytes and a dream."
 - id: level-20-1
   name: Tcache Terror (Hard)
+  type: challenge
   description: "16 bytes and a dream."
